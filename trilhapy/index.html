@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilhazinha PY</title>
+    <!-- Importando a fonte Inter e o seu arquivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 class="sr-only">Trilha completa de estudos para desenvolvedor Full Stack Python — do básico ao profissional</h2>
+
+    <div class="nav">
+        <button class="nav-btn active" onclick="show(0)">Fase 1 — Base Python</button>
+        <button class="nav-btn" onclick="show(1)">Fase 2 — Backend</button>
+        <button class="nav-btn" onclick="show(2)">Fase 3 — Frontend</button>
+        <button class="nav-btn" onclick="show(3)">Fase 4 — Full Stack</button>
+        <button class="nav-btn" onclick="show(4)">Fase 5 — Mercado</button>
+    </div>
+
+    <!-- Áreas onde o conteúdo será injetado pelo JavaScript -->
+    <div id="p0" class="phase visible"></div>
+    <div id="p1" class="phase"></div>
+    <div id="p2" class="phase"></div>
+    <div id="p3" class="phase"></div>
+    <div id="p4" class="phase"></div>
+
+    <!-- Importando o seu arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
